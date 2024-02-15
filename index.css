@@ -229,12 +229,13 @@
     color: #848FAC;
 }
 
-.game{
+.game {
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.game__h1{
+.game__h1 {
     font-family: var(--font-family--);
     font-weight: 600;
     font-size: 20px;
@@ -243,7 +244,7 @@
     padding-bottom: 20px;
 }
 
-.game__p{
+.game__p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -252,7 +253,7 @@
     color: #848FAC;
 }
 
-.smoll__buttom{
+.smoll__buttom {
     width: 160px;
     height: 50px;
     border-radius: 5px;
@@ -263,8 +264,140 @@
     transition: .5s;
 }
 
-.smoll__buttom:hover{
+.smoll__buttom:hover {
     background: #fff;
     color: #0E1734;
     transition: .5s;
+}
+
+.emmer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.emmer__img {
+    width: 370px;
+    height: 480px;
+}
+
+.emmer__img__smoll {
+    width: 100%;
+    height: 100%;
+}
+
+.emmer__h1 {
+    font-family: var(--font-family--);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.emmer__p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #848FAC;
+    padding-bottom: 20px;
+}
+
+.emmer__smoll {
+    width: 120px;
+    height: 25px;
+    gap: 10px;
+    font-size: 15px;
+    color: #848FAC;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cloudy__left__p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #192252;
+    padding-bottom: 10px;
+}
+
+.cloudy__left__h1{
+    font-family: var(--font-family--);
+    font-weight: 600;
+    font-size: 20px;
+    color: #192252;
+}
+
+.cloudy__left__paragrof{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #848FAC;
+}
+
+.cloudy__smoll{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #0E1734;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cloudy__smoll:hover{
+    transition: .5s;
+    background: #fff;
+    color: #0E1734;
+}
+
+.cloudy__smol{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: #0E1734;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cloudy__smol:hover{
+    transition: .5s;
+    color: #fff;
+    background: #0E1734;
+    border: none;
+}
+
+.cloudy__top{
+    width: 500px;
+    height: 50px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cloudy__top_img{
+    
+}
+
+.cloudy__top__img{
+    position: absolute;
+    right: ;
+}
+
+.cloudy__top_h1{
+    font-family: var(--font-family--);
+    font-weight: 600;
+    font-size: 14px;
+    color: #424F7B;
 }
